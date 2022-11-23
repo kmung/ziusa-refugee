@@ -1,5 +1,17 @@
+import './header.css';
+import logo from "./img/ziusa-logo.png";
+
 export default function Navbar() {
-    return <nav className="nav-bar">
-        <a className="logo" href="#">Logo</a>
-    </nav>
+    return <header>
+        <nav className="nav-bar">
+            <img src={logo} alt="ZIUSA Logo"></img>
+            <a className="logo" href="#">Zomi Refugee Program</a>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Team</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
 }
