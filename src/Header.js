@@ -1,4 +1,4 @@
-
+// CSS imported in App.js
 import logo from "./img/ziusa-logo.png";
 
 export default function Navbar() {
