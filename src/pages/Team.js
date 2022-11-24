@@ -1,5 +1,11 @@
-import './team.css';
+import Navbar from "../components/Navbar.js"
+import Footer from "../components/Footer.js"
 
 export default function Team() {
-    return null;
+    return (
+        <div>
+            <Navbar/>
+            <Footer/>
+        </div>
+    )
 }

@@ -1,5 +1,11 @@
-import './contact.css';
+import Navbar from "../components/Navbar.js"
+import Footer from "../components/Footer.js"
 
 export default function Contact() {
-    return null;
+    return (
+        <div>
+            <Navbar/>
+            <Footer/>
+        </div>
+    )
 }

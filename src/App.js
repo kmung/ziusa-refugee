@@ -1,19 +1,11 @@
-import './main.css';
+import React from 'react';
+import './App.css';
+import Home from './pages/Home'
 
-import Header from "./Header";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Team from "./pages/Team";
-import Contact from "./pages/Contact";
-import Footer from "./Footer";
-
-function App() {
+export default function App() {
   return (
-    <>
-    <Header />
-    <Home />
-    </>
+    <div>
+      <Home/>
+    </div>
   );
 }
-
-export default App;

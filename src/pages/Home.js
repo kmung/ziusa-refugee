@@ -1,6 +1,11 @@
-// use main.css
+import {Navbar} from "../components/Navbar"
+import {Footer} from "../components/Footer"
+
 export default function Home() {
-    return <section className="hero">
-        <h1>Zomi Refugee Program</h1>
-    </section>
+    return (
+        <div>
+            <Navbar/>
+            <Footer/>
+        </div>
+    )
 }
