@@ -20,6 +20,11 @@ html, body {
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+}
+
 ul, li {
     list-style: none;
 }
@@ -133,7 +138,7 @@ header {
 }
 
 .hero {
-    min-height: 90vh;
+    min-height: 95vh;
     background-color: rgba(80, 92, 91, 0.6);
 }
 
