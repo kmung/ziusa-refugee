@@ -31,8 +31,10 @@ a:hover {
 
 header {
     z-index: 12;
+    position: fixed;
     margin-top: 0;
     padding-top: 0;
+    width: 100%;
 }
 
 .nav-bar {
@@ -71,9 +73,16 @@ header {
     justify-items: center;
     justify-content: space-between;
     padding-right: 4px;
+    font-size: 1rem;
 }
 
 .menu-items li {
     padding-right: 10px;
     gap: 4px;
+}
+
+.hero::before {
+    display: block;
+    content: '';
+    height: 120px;
 }
