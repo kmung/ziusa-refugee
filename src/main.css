@@ -1,1 +1,79 @@
 /* This will be the top CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Rubik+Microbe&display=swap');
+
+/* 
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Rubik Microbe', cursive;
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}
+
+header {
+    z-index: 12;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav-bar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(26, 201, 157, 0.6);
+    min-height: auto;
+}
+
+.brand {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand img {
+    max-width: 8em;
+    height: auto;
+    padding: 10px 4px 6px 0px;
+}
+
+#site-title {
+    font-size: 2rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-items: center;
+}
+    
+.menu-items {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-right: 4px;
+}
+
+.menu-items li {
+    padding-right: 10px;
+    gap: 4px;
+}
