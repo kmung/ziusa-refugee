@@ -42,7 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(26, 201, 157, 0.6);
+    background-color: rgba(198, 211, 208, 0.6);
     min-height: auto;
 }
 
@@ -85,4 +85,8 @@ header {
     display: block;
     content: '';
     height: 120px;
+}
+
+.hero {
+    min-height: 80vh;
 }
