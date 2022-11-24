@@ -90,3 +90,7 @@ header {
 .hero {
     min-height: 80vh;
 }
+
+.hero h1 {
+    font-family: 'Rubik Microbe', cursive;
+}
