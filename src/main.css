@@ -74,9 +74,9 @@ header {
 }
 
 .brand img {
-    max-width: 8em;
+    max-width: 7.5em;
     height: auto;
-    padding: 10px 4px 6px 0px;
+    padding: 8px 4px 8px 0px;
 }
 
 #site-title {
@@ -103,7 +103,7 @@ header {
 
 .nav-menu > button {
     font-size: 0.95rem;
-    border-radius: 10%;
+    border-radius: 12%;
 }
 
 .nav-menu > button:hover,
@@ -116,6 +116,7 @@ header {
 .nav-menu > button::before {
     content: '';
     position: absolute;
+    border-radius: 12%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -130,18 +131,33 @@ header {
     transform: scaleX(1);
 }
 
-.hero::before {
+.hero-wrapper::before {
     display: block;
     content: '';
-    height: 140px;
+    height: 14vh;
     background-color: white;
 }
 
-.hero {
-    min-height: 95vh;
-    background-color: rgba(80, 92, 91, 0.6);
+.hero-wrapper {
+    position: relative;
+    min-height: 92vh;
+    background-color: rgba(170, 175, 174, 0.6);
 }
 
-.hero > h1 {
+.hero {
+    position: relative;
+    display: flex;
+}
+
+.hero-txt {
+    position: relative;
+    display: flex;
+    padding: 0em 1.2em 0.2em 1.5em;
+    background-color: rgba(0, 255, 255, 0.2);
+    max-width: 50%;
+}
+
+.hero-txt > h1 {
     font-family: 'Rubik Microbe', cursive;
+    color: blue;
 }
