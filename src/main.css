@@ -172,12 +172,12 @@ header {
 }
 
 footer {
+    position: relative;
     padding-top: 0;
     margin-bottom: 0;
     font-family: 'Noto Sans Mono', monospace;
     color: #fff;
-    max-height: fit-content;
-    max-width: auto;
+    min-height: 30vh;
 }
 
 .footer-content {
