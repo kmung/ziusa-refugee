@@ -1,6 +1,6 @@
 // CSS imported in App.js
 
-/* Complete later: store svgs as variables
+/* TODO: store svgs as variables
 // const emailIcon = 
 */
 
