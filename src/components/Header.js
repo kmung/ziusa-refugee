@@ -1,9 +1,11 @@
+//import {Link, Route, Routes} from "react-router-dom";
+
 // CSS imported in App.js
-import logo from "./img/ziusa-logo.png";
-//import Home from "./pages/Home";
+import logo from "../img/ziusa-logo.png";
+//import {Home} from "./pages/Home";
 
 export default function Navbar() {
-    return <header>
+    return (<header>
         <nav className="nav-bar">
             <div className="brand">
                 <img id="logo" src={logo} alt="ZIUSA Logo"></img>
@@ -20,4 +22,5 @@ export default function Navbar() {
             </div>
         </nav>
     </header>
+    );
 }
