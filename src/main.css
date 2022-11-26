@@ -194,16 +194,41 @@ footer {
     padding: 0.5em 0em 0.5em 0em;
 }
 
+.footer-bio {
+    position: relative;
+    border: 4px solid rgba(82, 160, 190, 0.8);
+    border-radius: 10%;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 0em 0.5em 0em 0.5em;
+    background-color: rgba(97, 187, 166, 0.35);
+    min-height: fit-content;
+    max-width: auto;
+}
+
 #fine-prints {
     font-size: 0.8rem;
+}
+
+.footer-flag {
+   position: relative;
+   display: flex;
+   border: 3px solid rgba(82, 160, 190, 0.8);
+   margin: 0.5em 0em 0.5em 0em;
+   align-items: center;
+}
+
+.footer-flag > img {
+    max-width: 18em;
+    height: auto;
+    object-fit: contain;
 }
 
 .footer-social-media {
     position: relative;
     border: 4px solid rgba(82, 160, 190, 0.8);
     border-radius: 10%;
-    margin: 1em 0em 0.5em 03em;
-    padding: 0em 0.75em 0em 0.5em;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 0em 0.5em 0em 0.5em;
     background-color: rgba(97, 187, 166, 0.35);
     min-height: fit-content;
     max-width: auto;
