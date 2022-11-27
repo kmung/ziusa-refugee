@@ -8,7 +8,9 @@ export default function Navbar() {
     <header>
         <nav className="nav-bar">
             <div className="brand">
-                <img id="logo" src={logo} alt="ZIUSA Logo"></img>
+                <Link to="/">
+                    <img id="logo" src={logo} alt="ZIUSA Logo"></img>
+                </Link>
                 <Link to="/" id="site-title">Zomi Refugee Program</Link>
             </div>
             <div className="nav-menu">
@@ -17,7 +19,9 @@ export default function Navbar() {
                     <li><Link to="about">About Us</Link></li>
                     <li><Link to="team">Team</Link></li>
                 </ul>
-                <button type="button"><i className="bi bi-envelope"></i>Contact Us</button>
+                <Link to="contact">
+                    <button type="button" className="modal-btn modal-btn-open"><i className="bi bi-envelope"></i>Contact Us</button>
+                </Link>
             </div>
         </nav>
     </header>

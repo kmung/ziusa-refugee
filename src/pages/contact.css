@@ -1,0 +1,36 @@
+.form {
+    width: 60vw;
+    max-width: 500px;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+input, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #e7f1fe;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+label, p {
+    display: block;
+    margin: 10px;
+}
+  
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 2rem auto 1rem auto;
+    font-size: 1.1rem;
+    background-color: #4386f9;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type="submit"]:active {
+    background-color: #939393;
+}
