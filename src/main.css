@@ -22,6 +22,8 @@ html, body {
 }
 
 *, *::before, *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -36,7 +38,7 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(94, 198, 224, 0.8);
 }
 
 a:hover, a:focus {
@@ -52,6 +54,11 @@ button {
     max-height: 100%;
     max-width: auto;
     text-align: center;
+    padding: 4px 8px 4px 8px;
+}
+
+button > i {
+    padding: 0px 6px 0px 4px;
 }
 
 header {
@@ -91,6 +98,7 @@ header {
 
 .nav-menu {
     display: flex;
+    align-items: center;
     justify-items: center;
 }
     
@@ -110,7 +118,7 @@ header {
 
 .nav-menu > button {
     font-size: 0.95rem;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .nav-menu > button:hover,
@@ -138,15 +146,6 @@ header {
     transform: scaleX(1);
 }
 
-/*
-.main-wrapper::before {
-    display: block;
-    content: '';
-    height: 12vh;
-    background-color: white;
-}
-*/
-
 .main-wrapper {
     position: relative;
     min-height: 90vh;
@@ -173,11 +172,10 @@ header {
 
 footer {
     position: relative;
-    padding-top: 0;
+    padding-bottom: 0;
     margin-bottom: 0;
     font-family: 'Noto Sans Mono', monospace;
     color: #fff;
-    min-height: 30vh;
 }
 
 .footer-content {

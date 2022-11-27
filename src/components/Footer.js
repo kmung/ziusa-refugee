@@ -14,6 +14,7 @@
 
 
 import { createElement } from "react";
+import { Link } from "react-router-dom";
 import ziusaFlag from "../img/ziusa-flag.jpg";
 
 export default function Footer() {
@@ -46,7 +47,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-copyright">
-                <p>Copyright &copy; 2022-23 Zomi Refugee Program. All Rights Reserved.</p>
+                <p>Copyright<i className="bi bi-c-circle"></i> 2022-23 <Link to="/">Zomi Refugee Program</Link>. All Rights Reserved.</p>
             </div>
         </footer>
     );

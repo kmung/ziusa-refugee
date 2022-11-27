@@ -16,7 +16,7 @@ export default function Navbar() {
                     <li><Link to="about">About Us</Link></li>
                     <li><Link to="team">Team</Link></li>
                 </ul>
-                <button type="button">Contact Us</button>
+                <button type="button"><i className="bi bi-envelope"></i>Contact Us</button>
             </div>
         </nav>
     </header>
