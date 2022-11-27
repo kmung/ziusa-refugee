@@ -25,17 +25,17 @@ export default function Home() {
         <div className="sticky-img">
             <img src={stickyImage} alt="image" loading="lazy"></img>
         </div>
-        <div className="bio">
-            <div className="bio-card">
-                <h2 className="bio-heading">Mission</h2>
-                <div className="bio-section">
+        <div className="about">
+            <div className="about-card">
+                <h2 className="about-heading">Mission</h2>
+                <div className="about-section">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
                 </div>
             </div>
-            <div className="bio-card">
-                <h2 className="bio-heading">Vision</h2>
-                <div className="bio-section">
+            <div className="about-card">
+                <h2 className="about-heading">Vision</h2>
+                <div className="about-section">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
                 </div>
