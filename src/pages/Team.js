@@ -3,7 +3,9 @@ import './team.css';
 export default function Team() {
     return (
     <section className='main-wrapper'>
-        <h1>Leadership Team</h1>
+        <div className='team-wrapper'>
+            <h1>Leadership Team</h1>
+        </div>
     </section>
     );
 }

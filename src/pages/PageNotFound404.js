@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import "./error.css";
 
 // processes the 404 error page
 export default function PageNotFound404() {
@@ -8,7 +9,9 @@ export default function PageNotFound404() {
     console.log(urlLocator);
     return (
     <section className='main-wrapper'>
-        <h1>Error 404: The page at {urlLocator.pathname} can't be found.</h1>
+        <div className="page-not-found">
+            <h1>Error 404: The page at {urlLocator.pathname} can't be found.</h1>
+        </div>
     </section>
     );
 }
