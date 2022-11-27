@@ -1,6 +1,5 @@
-//import {Link, Route, Routes} from "react-router-dom";
-
 // CSS imported in App.js
+import { Link } from "react-router-dom";
 import logo from "../img/ziusa-logo.png";
 //import {Home} from "./pages/Home";
 
@@ -9,14 +8,13 @@ export default function Navbar() {
         <nav className="nav-bar">
             <div className="brand">
                 <img id="logo" src={logo} alt="ZIUSA Logo"></img>
-                <a href="#" id="site-title">Zomi Refugee Program</a>
+                <Link to="/" id="site-title">Zomi Refugee Program</Link>
             </div>
             <div className="nav-menu">
                 <ul className="menu-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="about">About Us</Link></li>
+                    <li><Link to="team">Team</Link></li>
                 </ul>
                 <button type="button">Contact Us</button>
             </div>

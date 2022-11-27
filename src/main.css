@@ -139,7 +139,7 @@ header {
 }
 
 /*
-.hero-wrapper::before {
+.main-wrapper::before {
     display: block;
     content: '';
     height: 12vh;
@@ -147,7 +147,7 @@ header {
 }
 */
 
-.hero-wrapper {
+.main-wrapper {
     position: relative;
     min-height: 90vh;
     background-color: rgba(170, 175, 174, 0.6);

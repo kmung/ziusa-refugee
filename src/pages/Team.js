@@ -1,5 +1,9 @@
 import './team.css';
 
 export default function Team() {
-    return (null);
+    return (
+    <section className='main-wrapper'>
+        <h1>Leadership Team</h1>
+    </section>
+    );
 }
