@@ -1,22 +1,20 @@
 // CSS imported in App.js
 
-
 import { Link } from "react-router-dom";
 import ziusaFlag from "../img/ziusa-flag.jpg";
 
-// TODO: store svgs as variables
-// const emailIcon = React.createElement(
-//     svg,
-//     {xmlns:"http://www.w3.org/2000/svg",
-//     width:"20",
-//     height:"auto",
-//     fill:"currentColor",
-//     className:"bi bi-envelope",
-//     viewBox:"0 0 16 16"},
-//     {}
-//     );
-
 export default function Footer() {
+    // TODO: store svgs as variables
+    // const emailIcon = React.createElement(
+    //     svg,
+    //     {xmlns:"http://www.w3.org/2000/svg",
+    //     width:"20",
+    //     height:"auto",
+    //     fill:"currentColor",
+    //     className:"bi bi-envelope",
+    //     viewBox:"0 0 16 16"},
+    //     {}
+    //     );
     return (
         <footer>
             <div className="footer-content">

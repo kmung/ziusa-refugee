@@ -160,12 +160,13 @@ header .nav-bar {
 .hero {
     position: relative;
     display: flex;
+    justify-content: space-evenly;
+    gap: 6px;
 }
 
 .hero-hook {
     position: relative;
-    padding: 0em 1.2em 0.2em 1.5em;
-    background-color: rgba(0, 255, 255, 0.2);
+    padding: 2em 1em 1em 6em;
     overflow: hidden;
 }
 
@@ -205,6 +206,17 @@ header .nav-bar {
     66%   {color: var(--color-3)}
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
+}
+
+.hero-media {
+    position: relative;
+    padding: 2em 2em 1em 1em;
+}
+
+.hero-media #cover-image {
+    object-fit: contain;
+    max-width: 50vw;
+    height: auto;
 }
 
 footer {

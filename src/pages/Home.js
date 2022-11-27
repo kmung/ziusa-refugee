@@ -1,4 +1,7 @@
 // use main.css
+
+import coverImage from "../img/family.jpg";
+
 export default function Home() {
     return (
     <section className="main-wrapper">
@@ -12,7 +15,9 @@ export default function Home() {
                 <h1>A Voice for the Zomi Diaspora</h1>
                 <h1>A Platform of Hope</h1>
             </div>
-            <div className="hero-media"></div>
+            <div className="hero-media">
+                <img id="cover-image" src={coverImage} alt="Cover images"></img>
+            </div>
         </div>
     </section>
     );
