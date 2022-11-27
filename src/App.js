@@ -13,18 +13,18 @@ export default function App() {
   return (
     <>
     <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route
-          path='/about'
-          element={<About />}
-        />
-        <Route
-          path='/team'
-          element={<Team />}
-        />
-        <Route path='*' element={<PageNotFound404 />} />
-      </Routes>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route
+        path='/about'
+        element={<About />}
+      />
+      <Route
+        path='/team'
+        element={<Team />}
+      />
+      <Route path='*' element={<PageNotFound404 />} />
+    </Routes>
     <Footer />
     </>
   );

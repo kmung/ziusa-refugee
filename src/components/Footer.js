@@ -1,5 +1,9 @@
 // CSS imported in App.js
 
+
+import { Link } from "react-router-dom";
+import ziusaFlag from "../img/ziusa-flag.jpg";
+
 // TODO: store svgs as variables
 // const emailIcon = React.createElement(
 //     svg,
@@ -11,11 +15,6 @@
 //     viewBox:"0 0 16 16"},
 //     {}
 //     );
-
-
-import { createElement } from "react";
-import { Link } from "react-router-dom";
-import ziusaFlag from "../img/ziusa-flag.jpg";
 
 export default function Footer() {
     return (
@@ -33,7 +32,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="footer-flag">
-                    <img src={ziusaFlag} alt="ZIUSA Flag"></img>
+                    <img src={ziusaFlag} alt="ZIUSA Flag" loading="lazy"></img>
                 </div>
                 <div className="footer-social-media">
                     <p>Follow us on social media!</p>

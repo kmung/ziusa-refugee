@@ -4,7 +4,8 @@ import logo from "../img/ziusa-logo.png";
 //import {Home} from "./pages/Home";
 
 export default function Navbar() {
-    return (<header>
+    return (
+    <header>
         <nav className="nav-bar">
             <div className="brand">
                 <img id="logo" src={logo} alt="ZIUSA Logo"></img>
