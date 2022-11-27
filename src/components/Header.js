@@ -20,7 +20,7 @@ export default function Navbar() {
                     <li><Link to="team">Team</Link></li>
                 </ul>
                 <Link to="contact">
-                    <button type="button" className="modal-btn modal-btn-open"><i className="bi bi-envelope"></i>Contact Us</button>
+                    <button type="button" className="contact-btn"><i className="bi bi-envelope"></i>Contact Us</button>
                 </Link>
             </div>
         </nav>
