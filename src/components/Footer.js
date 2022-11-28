@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-copyright">
-                <p>Copyright<i className="bi bi-c-circle"></i> 2022-23 <Link to="/">Zomi Refugee Program</Link>. All Rights Reserved.</p>
+                <p><i className="bi bi-c-circle"></i> 2022-23 <Link to="/">Zomi Refugee Program</Link>. All Rights Reserved.</p>
             </div>
         </footer>
     );

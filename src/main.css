@@ -79,7 +79,6 @@ header .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(198, 211, 208, 0.6);
     min-height: auto;
 }
 
@@ -142,7 +141,7 @@ header .nav-bar {
     bottom: 0;
     height: 100%;
     background-color: rgba(0, 255, 255, 0.2);
-    transition: transform 200ms ease-in-out;
+    transition: transform 250ms ease-in-out;
     transform: scaleX(0);
 }
 
@@ -154,8 +153,8 @@ header .nav-bar {
 .main-wrapper {
     position: relative;
     min-height: 100vh;
-    background-color: rgba(170, 175, 174, 0.6);
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
 }
 
 .hero {
@@ -235,7 +234,7 @@ header .nav-bar {
     object-fit: cover;
 }
 
-.about {
+.home-about {
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -244,7 +243,7 @@ header .nav-bar {
     gap: 2px;
 }
 
-.about-card {
+.home-about-card {
     position: relative;
     margin: 1em 1em 1em 1em;
     padding: 0;
@@ -253,7 +252,7 @@ header .nav-bar {
     border: 2px solid rgb(255, 72, 0);
 }
 
-.about-heading {
+.home-about-heading {
     position: relative;
     z-index: 12;
     margin: 1em 10em 1em 2em;
@@ -262,7 +261,7 @@ header .nav-bar {
     background-color: #fff;
 }
 
-.about-section {
+.home-about-section {
     position: relative;
     margin: -5em 5em 2em 5em;
     padding: 5em 6em 5em 2em;
@@ -279,12 +278,12 @@ footer {
     margin-bottom: 0;
     font-family: 'Noto Sans Mono', monospace;
     color: #fff;
+    background-color: rgba(88, 88, 94, 0.842);
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(51, 51, 61, 0.6);
     gap: 4px;
     padding: 0em 0.75em 0.2em 1.5em;
 }
@@ -340,5 +339,4 @@ footer {
     justify-content: center;
     justify-items: center;
     font-size: 0.9rem;
-    background-color: rgba(51, 51, 61, 0.8);
 }
