@@ -32,6 +32,20 @@ export default function About() {
                         <p>Chief Position Officer, CPO</p>
                     </div>
                 </div>
+                <div className='leadership-card'>
+                    <img src={avatar} alt='avatar' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>John Appleseed</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={avatar} alt='avatar' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>John Appleseed</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
