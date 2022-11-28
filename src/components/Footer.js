@@ -19,7 +19,7 @@ export default function Footer() {
         <footer>
             <div className="footer-content">
                 <div className="footer-bio">
-                    <h4>Zomi Refugee Program</h4>
+                    <h4><Link to="/">Zomi Refugee Program</Link></h4>
                     <p id="fine-prints">A program of Zomi Innkuan USA, Inc</p>
                     <p>Contact Info</p>
                     <ul>

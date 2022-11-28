@@ -15,8 +15,8 @@ export default function Home() {
                     <span className="animated-text animated-text-2">Refugee</span>
                     <span className="animated-text animated-text-3">Program</span>
                 </h1>
-                <h1>A Voice for the Zomi Diaspora</h1>
-                <h1>A Platform of Hope</h1>
+                <h2>A Voice for the Zomi Diaspora</h2>
+                <h2>A Platform of Hope</h2>
             </div>
             <div className="hero-media">
                 <img id="cover-image" src={coverImage} alt="Cover images"></img>
@@ -27,14 +27,14 @@ export default function Home() {
         </div>
         <div className="about">
             <div className="about-card">
-                <h2 className="about-heading">Mission</h2>
+                <h3 className="about-heading">Our Mission</h3>
                 <div className="about-section">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
                 </div>
             </div>
             <div className="about-card">
-                <h2 className="about-heading">Vision</h2>
+                <h3 className="about-heading">Our Vision</h3>
                 <div className="about-section">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
