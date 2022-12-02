@@ -141,7 +141,7 @@ header .nav-bar {
     bottom: 0;
     height: 100%;
     background-color: rgba(0, 255, 255, 0.2);
-    transition: transform 250ms ease-in-out;
+    transition: transform 350ms ease-in-out;
     transform: scaleX(0);
 }
 

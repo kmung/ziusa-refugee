@@ -5,7 +5,7 @@ import stickyImage from "../img/tgfood.JPG";
 
 export default function Home() {
     //TODO: store image urls to a string variable
-    //let stickyImg = `https://www.pexels.com/photo/man-people-woman-girl-6306902/`;
+    //let stickyImg = require("https://www.pexels.com/photo/man-people-woman-girl-6306902/");
     return (
     <section className="main-wrapper">
         <div className="hero">

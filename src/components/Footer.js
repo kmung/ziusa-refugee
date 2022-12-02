@@ -2,6 +2,7 @@
 
 import { Link } from "react-router-dom";
 import ziusaFlag from "../img/ziusa-flag.jpg";
+//import facebookIcon from "../icons/facebook.svg";
 
 export default function Footer() {
     // TODO: store svgs as variables
