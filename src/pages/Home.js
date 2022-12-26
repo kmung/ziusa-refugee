@@ -1,5 +1,6 @@
 // use main.css
 
+import { Link } from "react-router-dom";
 import coverImage from "../img/family.jpg";
 import stickyImage from "../img/tgfood.JPG";
 
@@ -29,15 +30,19 @@ export default function Home() {
             <div className="home-about-card">
                 <h3 className="home-about-heading">Our Mission</h3>
                 <div className="home-about-section">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
+                    <p>Zomi Refugee Program carries out the aims and objectives of the Zomi Innkuan USA (ZIUSA) to serve and advocate for the Zomi refugees around the world.</p>
+                    <button type="button">
+                        <Link to="about"><i class="bi bi-caret-right"></i>Read More</Link>
+                    </button>
                 </div>
             </div>
             <div className="home-about-card">
                 <h3 className="home-about-heading">Our Vision</h3>
                 <div className="home-about-section">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
+                    <p>Zomi Refugee Program is a leading network for the enhancement of cultural and community development in the Zomi refugee community to have the opportunity to integrate into the larger American society by interacting and sharing their unique cultures and skills.</p>
+                    <button type="button">
+                        <Link to="about"><i class="bi bi-caret-right"></i>Read More</Link>
+                    </button>
                 </div>
             </div>
         </div>
