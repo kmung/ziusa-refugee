@@ -24,3 +24,4 @@ yarn-error.log*
 
 # images folder
 /src/img
+/src/img_copy
