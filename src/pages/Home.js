@@ -29,7 +29,7 @@ export default function Home() {
             <div className="home-about-card">
                 <h3 className="home-about-heading">Our Mission</h3>
                 <div className="home-about-section">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <button type="button"><i class="bi bi-caret-right"></i>Read More</button>
                 </div>
             </div>

@@ -236,8 +236,8 @@ header .nav-bar {
 
 .home-about {
     position: relative;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     min-height: max-content;
     width: auto;
     gap: 2px;
