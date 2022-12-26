@@ -1,6 +1,9 @@
 import './about.css';
 
 import avatar from "../icons/person-circle.svg";
+import director from "../img/tual-khan-suan.jpg";
+import khawmPau from "../img/pauzomi.jpg";
+import dimNgai from "../img/dim_photo.png";
 
 export default function About() {
     return (
@@ -18,6 +21,48 @@ export default function About() {
             <p>Zomi Refugee Program is a leading network for the enhancement of cultural and community development in the Zomi refugee community to have the opportunity to integrate into the larger American society by interacting and sharing their unique cultures and skills.</p>
             <h2 id='leadership-heading'>Leadership Team</h2>
             <div className='leadership-section'>
+                <div className='leadership-card'>
+                    <img src={director} alt='Tual Khan Suan' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>Tual Khan Suan</h4>
+                        <p>Program Director</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={khawmPau} alt='Thang Khawm Pau' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>Thang Khawm Pau</h4>
+                        <p>Performance and Research Manager</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={dimNgai} alt='Dim Sian Ngai' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>Dim Sian Ngai</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={avatar} alt='avatar' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>John Appleseed</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={avatar} alt='avatar' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>John Appleseed</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
+                <div className='leadership-card'>
+                    <img src={avatar} alt='avatar' loading='lazy'></img>
+                    <div className='leadership-card-bio'>
+                        <h4>John Appleseed</h4>
+                        <p>Chief Position Officer, CPO</p>
+                    </div>
+                </div>
                 <div className='leadership-card'>
                     <img src={avatar} alt='avatar' loading='lazy'></img>
                     <div className='leadership-card-bio'>
